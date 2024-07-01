@@ -1,0 +1,20 @@
+{% extends 'main/base.html' %}
+{% block content %}
+{% load static %}
+<div class="container">
+    <h1 class="my-2 text-success text-center ">Quiénes Somos</h1>
+    <p class="somosunaempresa text-center"> InnovateNow es una aceleradora de start-ups dedicada a impulsar el crecimiento de emprendedores innovadores y sus negocios. Fundada por un equipo de expertos en tecnología, negocios y finanzas, nuestra misión es proporcionar a las start-ups las herramientas y el apoyo necesarios para alcanzar el éxito en un mercado competitivo.</p>
+    <h2 class="my-4 text-success text-center">Nuestro Equipo</h2>
+    <div class="row justify-content-center">
+        <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="card h-100 text-center"> 
+                <img class="card-img-top img-fluid" src="{% static 'imagenes/IMG_2334.png' %}" alt="fotopresentada">
+                <div class="card-body">
+                    <h4 class="card-title">Pablo Abarca</h4>
+                    <p class="card-text">Ceo de InnovateNow</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,56 @@
+
+
+.jumbotron {
+    background-color: #1717170f;
+    color: #059212;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2.text-success {
+    color: #059212 !important;
+}
+
+.card {
+margin-top: 10%;
+
+}
+
+.nav-link {
+    transition: transform 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    transform: scale(1.2); 
+}
+
+.d-inline-block {
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.d-inline-block:hover {
+    transform: scale(1.2); 
+
+}
+
+.card{
+    transition: transform 0.3s ease-in-out;
+
+
+    
+}
+.card:hover {
+    transform: scale(1.2); 
+
+
+
+}
+
+.card-text{
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-text:hover{
+    transform: scale(1.2); 
+
+}

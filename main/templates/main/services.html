@@ -1,0 +1,77 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block content %}
+
+<style>
+.card-text {
+    margin-top: 10%;
+
+
+}
+
+.card-img-top{
+    margin: 5%;
+
+
+}
+
+.card-title{
+font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+</style>
+<div class="container">
+    <h1 class="my-4 text-success">Nuestros Servicios</h1>
+    <div class="row">
+        <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="cardlol h-100">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Asesoramiento y Mentoría</h4>
+                    <img class="card-img-top img-fluid" src="{% static 'imagenes/5.jpg' %}" alt="">
+                    <p class="card-text text-center">Ofrecemos orientación personalizada por expertos en diversos campos empresariales.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="cardlol h-100">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Acceso a Capital</h4>
+                    <img class="card-img-top img-fluid" src="{% static 'imagenes/2.jpg' %}" alt="">
+                    <p class="card-text text-center">Conectamos emprendedores con inversionistas o fuentes de financiamiento.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="cardlol h-100">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Espacio de Trabajo</h4>
+                    <img class="card-img-top img-fluid" src="{% static 'imagenes/4.jpg' %}" alt="">
+                    <p class="card-text text-center">Proporcionamos instalaciones físicas como oficinas compartidas y espacios de trabajo colaborativo.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="cardlol h-100">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Programas de Aceleración</h4>
+                    <img class="card-img-top img-fluid" src="{% static 'imagenes/3.jpg' %}" alt="">
+                    <p class="card-text text-center">Diseñados para acelerar el crecimiento y desarrollo de start-ups.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="cardlol h-100">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Networking y Eventos</h4>
+                    <img class="card-img-top img-fluid" src="{% static 'imagenes/1.jpg' %}" alt="">
+                    <p class="card-text text-center">Organizamos eventos, talleres y networking para conectar emprendedores.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
